@@ -1,18 +1,31 @@
-# React + Vite
+⏱️ React Timer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean Timer application built using React Hooks (useState, useRef, and useEffect).
+This project demonstrates how to manage intervals in React, prevent multiple timers from running simultaneously, and properly clean up side effects to avoid memory leaks.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Start the timer
+Stop/Pause the timer
+Reset the timer to zero
+Prevents multiple intervals from running at the same time
+Proper interval cleanup using useRef
+Clean and modern UI with CSS styling
 
-## React Compiler
+🧠 Concepts Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+React Functional Components
+useState for state management
+useRef to store interval ID without re-renders
+Handling side effects and cleanup
+Basic Git & GitHub project structure
+CSS layout and styling
 
-Note: This will impact Vite dev & build performances.
+🛠️ Tech Stack
+React (Vite)
+JavaScript (ES6)
+CSS
 
-## Expanding the ESLint configuration
+📌 Learning Outcome
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project helps understand how timers work in React, how to avoid common mistakes with setInterval, and how to manage side effects in functional components.
